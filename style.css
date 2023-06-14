@@ -1,0 +1,45 @@
+* {
+    color: white;
+    background-color:cornflowerblue;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+.form {
+    text-align: center;
+    text-transform: uppercase;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    padding: 30px 4%;
+}
+
+
+form input{
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    border-bottom: 2px solid rgb(200,200,200);
+    outline: 0;
+    font-size: 16px;
+    transition: all 0.5s ease-in-out;
+    border-bottom: 2px solid white;
+}
+
+form input::placeholder {
+    color: white;
+    text-align: center;
+}
+
+.input-submit {
+    cursor: pointer;
+    text-align: center;
+    width: 523px;
+}
